@@ -1,9 +1,7 @@
 /*Удачи тебе, мой невидимый друг!*/
 
-
 .wrapper{
 	max-width: 1020px;
-	max-height: 1604px;
 	margin: 0 auto;
 	}
 
@@ -21,7 +19,7 @@
 	font-family: "Lato";
 	font-weight: 800;
 	text-align: left;
-}
+        }
 
 .wrapper p{
 	width: 940px;
@@ -32,11 +30,11 @@
 	font-weight: 300;
 	text-align: left;
 	margin-top:26px
-}
+        }
 
 .portfolio ul{
 	display:flex;
-}
+        }
 
 .portfolio ul.filter{
 	font-size: 12px;
@@ -50,7 +48,7 @@
 	margin-top: 11px;
 	margin-left: 1px;
 	justify-content: space-between;
-}
+        }
 
 .filter li{
 	border:1px solid #767e9e;
@@ -62,7 +60,7 @@
 	color:#ffffff;
 	border-color:#ffffff;
 	cursor: pointer;
-}
+        }
 
 ul.image{
 	margin-top:18px;
@@ -71,12 +69,7 @@ ul.image{
 	align-content: space-between;
 	overflow:hidden;
 	height:603px;
-}
-
-.image li{
-	
-}
-
+        }
 
 .about_us{
 	height:588px;
@@ -86,19 +79,16 @@ ul.image{
 	letter-spacing: -0.01em;
 	}
 
-
-
 .about_us p{
 	text-align:justify;
 	letter-spacing: 0.002em;
-}
+        }
 
 .passport{
 	display:flex;
 	padding-top:46px;
 	justify-content:left;
-
-}
+        }
 
 
 .passport li{
@@ -109,7 +99,7 @@ ul.image{
 .passport li:nth-child(2){
 	position: relative;
 	right: 1px;
-}
+        }
 
 .wrapper h4{
 	font-size: 18px;
@@ -133,44 +123,43 @@ ul.image{
 	font-family: "Lato";
 	font-weight: 400;
 	text-align: left;
-}
+        }
 
 .social_nets{
 	display:flex;
 	padding: 7px 159px 0 1px;
-}
+        }
 
 .social_nets img:hover{
 	cursor: pointer;
 	border-radius: 50px;
-	animation: pulse 1.6s infinite;
-}
+	animation: 1.6s infinite pulse;
+        }
 
 .facebook img:hover{
 	background-color:#3b5998;	
-}
+        }
 
 .google img:hover{
 	background-color: #d6492f;
-}
+        }
 
 .twitter img:hover{
 	background-color: #00acee;
-}
+        }
 
 .linkedin img:hover{
 	background-color:#ff8d4e;
-}
+        }
 
 @keyframes pulse {
     0% {
         transform: scale(1);      
 	}
 	50%{
-		transform: scale(1.5);   
+	transform: scale(1.5);   
 	}
     100% {
         transform: scale(1);
-    }          
+        }       
 }
-
