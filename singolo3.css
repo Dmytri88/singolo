@@ -10,7 +10,7 @@
 	padding:69.5px 40px 1px 40px;
 	border-bottom: 6px solid #ea676b;
 	height:578px;
-}
+        }
 
 .description_get_a_quote h3{
 	font-size: 30px;
@@ -31,7 +31,7 @@
 	font-weight: 300;
 	text-align: justify;
 	padding-top: 27px;
-}
+        }
 
 .submit_info_area{
 	display:flex;
@@ -56,11 +56,11 @@
 	width:602px;
 	margin-bottom: 14px;
 	padding-left:14.5px ;
-}
+        }
 
 input{
 	height: 36px;
-}
+        }
 
 input:nth-child(2){
 	height: 35.5px;
@@ -71,16 +71,16 @@ textarea{
 	height: 193px;
 	resize: none;
 	padding-top: 7px;
-}
+        }
 
 textarea::-webkit-input-placeholder, 
 input::-webkit-input-placeholder {
-    color:#f48c8f;
-   }
+        color:#f48c8f;
+        }
  textarea::-webkit-input-placeholder,
  input::-moz-placeholder {
-    color:#f48c8f;
-   }
+        color:#f48c8f;
+        }
 
 input[type="submit"]{
 	height:40px;
@@ -90,14 +90,14 @@ input[type="submit"]{
 	margin-top:10px;
 	background-color:#656d89;
 	font-weight: bold;
-}
+        }
 
 input:focus,
 textarea:focus {
-    outline: 0;
-    outline-offset: 0;
+        outline: 0;
+        outline-offset: 0;
 	border-color:#656d89
-}
+        }
 
 input[type="submit"]:hover{
 	background-color: #d6564f;
@@ -125,7 +125,7 @@ input[type="submit"]:hover{
 	margin-top: 10px;
 	text-align: justify;
 	letter-spacing: -0.012em;
-}
+        }
 
 .contact_info p,
 .contact_info ul,
@@ -143,35 +143,35 @@ input[type="submit"]:hover{
 	position:relative;
 	top:-67px;
 	left: 16px;
-}
+        }
 
 .contact_info li{
 	padding-left: 7px;
-}
+        }
 
 .contact_info a{	
 	position: relative;
 	left: -2px;
 	text-decoration:none;
-}
+        }
 
 .contact_info a:hover{
 	color:#656d89;
 	opacity: 0.7;
-}
+        }
 
 .location{
 	position: relative;
 	list-style-image:url('assets/image/list/location.png');
 	top: 1px;
 	left: -0.7px;
-}
+        }
 
 .phone_number{
 	position: relative;
 	list-style-image:url('assets/image/list/phone.png');
 	left: 1.5px;
-}
+        }
 
 .e-mail{
 	position: relative;
@@ -186,7 +186,7 @@ input[type="submit"]:hover{
 	justify-content:space-between;
 	padding: 21.5px 40px;
 	height: 33px;
-}
+        }
 
 .footer_site p{
 	position:relative;
@@ -205,48 +205,31 @@ input[type="submit"]:hover{
 
 .footer_site li{
 	margin-left: 8px;
-}
+        }
 
 .footer_site img:hover{
 	border-radius: 50px;
 	animation: 0.8s linear rotate;
-}
-@keyframes rotate {
-	100%{
+        }
+
+@keyframes rotate{
+	100% {
 	transform: rotateY(360deg);
 	}
 }
 
 .facebook img:hover{
 	background-color:#3b5998;	
-}
+        }
 
 .google img:hover{
 	background-color: #d6492f;
-}
+        }
 
 .twitter img:hover{
 	background-color: #00acee;
-}
+        }
 
 .linkedin img:hover{
 	background-color:#ff8d4e;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        }
