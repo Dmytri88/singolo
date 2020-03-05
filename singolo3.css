@@ -1,0 +1,252 @@
+/*Удачи тебе, мой невидимый друг!*/
+
+.wrapper{
+	max-width: 1020px;
+	margin: 0 auto;
+	}
+	
+.get_a_quote{
+	background-color:#f06c64;
+	padding:69.5px 40px 1px 40px;
+	border-bottom: 6px solid #ea676b;
+	height:578px;
+}
+
+.description_get_a_quote h3{
+	font-size: 30px;
+	line-height: 18px;
+	color: #f0d8d9;
+	font-family: "Lato";
+	font-weight: 800;
+	text-align: left;
+	letter-spacing: -0.008em;
+	}
+
+.description_get_a_quote p{
+	height: 57px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #f0d8d9;
+	font-family: "Lato";
+	font-weight: 300;
+	text-align: justify;
+	padding-top: 27px;
+}
+
+.submit_info_area{
+	display:flex;
+	position: relative;
+	top:45px;
+	}
+
+.submit_form textarea,
+.submit_form input{
+	position: relative;
+	display:flex;
+	font-size: 12px;
+	line-height: 22px;
+	color: #f48c8f;
+	font-family: "Lato";
+	font-weight: 400;
+	text-align: left;
+	left:-0.5px;
+	background-color: #d6564f;
+	border-radius: 5px;
+	border: 1px solid #f06c64;
+	width:602px;
+	margin-bottom: 14px;
+	padding-left:14.5px ;
+}
+
+input{
+	height: 36px;
+}
+
+input:nth-child(2){
+	height: 35.5px;
+}
+
+textarea{
+	margin-top: 15px;
+	height: 193px;
+	resize: none;
+	padding-top: 7px;
+}
+
+textarea::-webkit-input-placeholder, 
+input::-webkit-input-placeholder {
+    color:#f48c8f;
+   }
+ textarea::-webkit-input-placeholder,
+ input::-moz-placeholder {
+    color:#f48c8f;
+   }
+
+input[type="submit"]{
+	height:40px;
+	width:80px;
+	padding:1px 10px 0 16px;
+	margin:auto;
+	margin-top:10px;
+	background-color:#656d89;
+	font-weight: bold;
+}
+
+input:focus,
+textarea:focus {
+    outline: 0;
+    outline-offset: 0;
+	border-color:#656d89
+}
+
+input[type="submit"]:hover{
+	background-color: #d6564f;
+	cursor:pointer;
+	border-color:#656d89;
+	}
+
+.contact_info{
+	margin-left:20px;
+	margin-top:1.5px;
+	}
+
+.contact_info h4{
+	font-size: 18px;
+	line-height: 18px;
+	color: #f0d8d9;
+	font-family: "Lato";
+	font-weight: 900;
+	text-align: left;
+	letter-spacing: -0.009em;
+	}
+
+.contact_info p{
+	margin-left: -1px;
+	margin-top: 10px;
+	text-align: justify;
+	letter-spacing: -0.012em;
+}
+
+.contact_info p,
+.contact_info ul,
+.contact_info a {
+	width: 300px;
+	height: 175px;
+	font-size: 12px;
+	line-height: 22px;
+	color: #f0d8d9;
+	font-family: "Lato";
+	font-weight: 400;
+	}
+	
+.contact_info ul {
+	position:relative;
+	top:-67px;
+	left: 16px;
+}
+
+.contact_info li{
+	padding-left: 7px;
+}
+
+.contact_info a{	
+	position: relative;
+	left: -2px;
+	text-decoration:none;
+}
+
+.contact_info a:hover{
+	color:#656d89;
+	opacity: 0.7;
+}
+
+.location{
+	position: relative;
+	list-style-image:url('assets/image/list/location.png');
+	top: 1px;
+	left: -0.7px;
+}
+
+.phone_number{
+	position: relative;
+	list-style-image:url('assets/image/list/phone.png');
+	left: 1.5px;
+}
+
+.e-mail{
+	position: relative;
+	list-style-image:url('assets/image/list/mail.png');
+	left: 2.5px;
+	}
+
+.footer_site{
+	display:flex;
+	position:relative;
+	background-color: #2d303a;
+	justify-content:space-between;
+	padding: 21.5px 40px;
+	height: 33px;
+}
+
+.footer_site p{
+	position:relative;
+	font-size: 12px;
+	line-height: 22px;
+	color: #656d89;
+	font-family: "Lato";
+	font-weight: 400;
+	text-align: left;
+	margin: 5px 2px;
+	}
+
+.footer_site ul{
+	display:flex;
+	}
+
+.footer_site li{
+	margin-left: 8px;
+}
+
+.footer_site img:hover{
+	border-radius: 50px;
+	animation: 0.8s linear rotate;
+}
+@keyframes rotate {
+	100%{
+	transform: rotateY(360deg);
+	}
+}
+
+.facebook img:hover{
+	background-color:#3b5998;	
+}
+
+.google img:hover{
+	background-color: #d6492f;
+}
+
+.twitter img:hover{
+	background-color: #00acee;
+}
+
+.linkedin img:hover{
+	background-color:#ff8d4e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
