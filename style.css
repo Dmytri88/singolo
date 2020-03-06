@@ -337,7 +337,6 @@
 .passport li{
 	display: inline-block;
 	width:320px;
-	overflow:hidden;
 	}
 
 .passport li:nth-child(2){
@@ -367,6 +366,7 @@
 	font-family: "Lato";
 	font-weight: 400;
 	text-align: left;
+	overflow:hidden;
 	}
 
 .social_nets{
