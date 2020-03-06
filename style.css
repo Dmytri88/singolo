@@ -337,6 +337,7 @@
 .passport li{
 	display: inline-block;
 	width:320px;
+	overflow:hidden;
 	}
 
 .passport li:nth-child(2){
