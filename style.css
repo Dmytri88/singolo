@@ -326,6 +326,7 @@
 .about_us p{
 	text-align:justify;
 	letter-spacing: 0.002em;
+	overflow:hidden;
 	}
 
 .passport{
