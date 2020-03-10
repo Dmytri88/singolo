@@ -161,6 +161,7 @@
 	line-height: 30px;
 	color: #767e9e;
 	font-family: "Lato";
+	overflow:hidden;
 	font-weight: 300;
 	text-align: justify;
 	top:27px;
@@ -203,6 +204,7 @@
 	font-family: "Lato";
 	font-weight: 400;
 	text-align: justify;
+	overflow:hidden;
 	padding-right:50px;
 	margin-left: 80px;
 	letter-spacing:0.002em;
