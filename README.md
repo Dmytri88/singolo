@@ -1,1 +1,1 @@
-[SINGOLO](https://gracious-jackson-e36078.netlify.com/)
+[SINGOLO](https://suspicious-panini-c4dc85.netlify.com/)
